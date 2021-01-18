@@ -2,6 +2,6 @@ export const INITIAL_STATE = {
   currentUser: null,
 };
 
-export const userActionTypes = {
+export const UserActionTypes = {
   setCurrentUser: 'SET_CURRENT_USER',
 };
