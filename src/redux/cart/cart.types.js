@@ -1,7 +1,6 @@
-export const INITIAL_STATE = {
-  hidden: true,
+const CartActionTypes = {
+  toggleCartHidden: 'TOGGLE_CART_HIDDEN',
+  addItem: 'ADD_ITEM',
 };
 
-export const CartActionTypes = {
-  toggleCartHidden: 'TOGGLE_CART_HIDDEN',
-};
+export default CartActionTypes;
